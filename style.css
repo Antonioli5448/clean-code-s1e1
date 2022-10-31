@@ -4,15 +4,18 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .inform-block {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .inform-block {
     width: 100%;
 }
+
 .inform-block__link {
     font-family: fantasy, cursive;
 }
@@ -22,33 +25,40 @@ body {
     .inform-block {
          text-align: center;
     }
-    
+
 }
+
 .main-page {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task-list__input,
 .task-list__label {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
 .add-item__block {
     display: flex;
 }
+
 .task-list {
     margin:0;
     padding: 0px;
 }
+
 .task-list__item {
     list-style:none;
 }
+
 .task-list__input,
 .main-page__btn{
     outline:none;
 }
+
 .main-page__btn {
     background: none;
     border: 0px;
@@ -58,9 +68,11 @@ body {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .main-page__btn:hover {
     color: #3a3a3a;
 }
+
 /* Heading */
 .main-page__title {
     color: #333;
@@ -71,6 +83,7 @@ body {
     margin: 0;
     text-transform: uppercase;
 }
+
 .task-list__input {
     margin: 0;
     font-size: 18px;
@@ -83,6 +96,7 @@ body {
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .task-list__input:focus {
     color: #333;
 }
@@ -92,6 +106,7 @@ body {
     display: block;
     margin: 0 0 20px;
 }
+
 .add-item__input {
     width: 318px;
 }
@@ -101,11 +116,11 @@ body {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .task-list__item > * {
     vertical-align: middle;
 }
@@ -113,20 +128,24 @@ body {
 .task-list__input_checkbox {
     margin: 0 10px;
 }
+
 .task-list__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .task-list__item > .task-list__input {
     width: 226px
 }
+
 .task-list__img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .task-list__img:hover {
     transform: rotateZ(0);
 }
