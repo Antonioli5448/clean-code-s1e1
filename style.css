@@ -54,8 +54,7 @@ body {
     list-style:none;
 }
 
-.task-list__input,
-.main-page__btn{
+.task-list__input,.main-page__btn{
     outline:none;
 }
 
@@ -137,7 +136,7 @@ body {
 }
 
 .task-list__item > .task-list__input {
-    width: 226px
+    width: 226px;
 }
 
 .task-list__img {
@@ -152,13 +151,13 @@ body {
 
 /* Completed */
 .task-list_completed .task-list__label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .task-list__item .task-list__input {
-    display:none
+    display:none;
 }
 
 .task-list__item_edit .task-list__input {
